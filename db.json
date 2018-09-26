@@ -1,14 +1,51 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "weather": {
+    "latitude": 45.2027,
+    "longitude": 6.69866,
+    "timezone": "Europe/Paris",
+    "daily": {
+        "data": [
+            {
+                "time": 1505858400,
+                "summary": "Partly cloudy throughout the day.",
+                "icon": "partly-cloudy-day",
+                "sunriseTime": 1505884761,
+                "sunsetTime": 1505928984,
+                "moonPhase": 0.01,
+                "precipIntensity": 0,
+                "precipIntensityMax": 0,
+                "precipProbability": 0,
+                "temperatureHigh": 59.32,
+                "temperatureHighTime": 1505916000,
+                "temperatureLow": 34.81,
+                "temperatureLowTime": 1505970000,
+                "apparentTemperatureHigh": 59.32,
+                "apparentTemperatureHighTime": 1505916000,
+                "apparentTemperatureLow": 34.81,
+                "apparentTemperatureLowTime": 1505970000,
+                "dewPoint": 37.64,
+                "humidity": 0.76,
+                "pressure": 1016.9,
+                "pressureError": 27.09,
+                "windSpeed": 0.3,
+                "windGust": 11.18,
+                "windGustTime": 1505912400,
+                "windBearing": 243,
+                "cloudCover": 0.55,
+                "cloudCoverError": 0.13,
+                "uvIndex": 5,
+                "uvIndexTime": 1505905200,
+                "temperatureMin": 35.98,
+                "temperatureMinTime": 1505883600,
+                "temperatureMax": 59.32,
+                "temperatureMaxTime": 1505916000,
+                "apparentTemperatureMin": 35.98,
+                "apparentTemperatureMinTime": 1505883600,
+                "apparentTemperatureMax": 59.32,
+                "apparentTemperatureMaxTime": 1505916000
+            }
+        ]
+    },
+    "offset": 2
+}
 }
